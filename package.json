@@ -1,0 +1,23 @@
+{
+  "name": "workflow_info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyMalayev/workflow_info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriyMalayev/workflow_info/issues"
+  },
+  "homepage": "https://github.com/DmitriyMalayev/workflow_info#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5"
+  }
+}
