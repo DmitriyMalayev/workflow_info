@@ -1,0 +1,5 @@
+{
+"presets": ["@babel/preset-env"]
+}
+
+// defining what preset we want to use. 
