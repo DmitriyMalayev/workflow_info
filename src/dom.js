@@ -19,10 +19,7 @@ export const myEmail = () => {
 
 export const phoneNumber = "347-761-4403";
 
-
-// export {styleBody, addTitle, phoneNumber};  
+// export {styleBody, addTitle, phoneNumber};
 // This will also work
-
-
 // styleBody();
 // addTitle("Hello There Everyone");
