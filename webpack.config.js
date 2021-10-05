@@ -9,6 +9,19 @@ module.exports = {
     contentBase: path.resolve(__dirname, "dist"),
     publicPath: "/assets/",
   },
+  // whenever we run npm run build this runs. 
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: { presets: ["@babel/preset-env"] },
+        },
+      },
+    ],
+  },
 };
 
 // We are exporting a web configuration object. Takes two properties, an entry property and an output property.
