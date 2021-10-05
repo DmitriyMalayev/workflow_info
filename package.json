@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "babel": "node_modules/.bin/babel src/app.js -w -o dist/assets/bundle.js",
-    "webpack": "node_modules/.bin/webpack -w"
+    "build": "node_modules/.bin/webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "@babel/preset-env": "^7.15.6",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^4.3.1"
   }
 }
