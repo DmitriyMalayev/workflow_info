@@ -2,7 +2,7 @@ const path = require("path");
 module.exports = {
   entry: "./src/app.js",
   output: {
-    path: path.resolve(__dir, "dist/assets"),
+    path: path.resolve(__dirname, "dist/assets"),
     filename: "./bundle.js",
   },
 };
@@ -17,5 +17,13 @@ module.exports = {
 // path.resolve(__dirname, path to the folder where the file will be, we don't write the extension.)
 
 // Running Webpack Requirements
-// Webpack Core and Webpack CLI 
+// Webpack Core and Webpack CLI
 // npm install webpack webpack-cli --save-dev
+// node_modules/.bin/webpack 
+// After adding it to package.json we can do   npm run webpack
+
+// Module
+// A chunk of code that we can export from one file and import in another. 
+
+// Export
+// If we want to use the files we need to prefix our methods with export and import them in the file needed. 
