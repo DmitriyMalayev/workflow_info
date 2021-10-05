@@ -16,4 +16,6 @@ module.exports = {
 // path module from the node library.
 // path.resolve(__dirname, path to the folder where the file will be, we don't write the extension.)
 
-// 
+// Running Webpack Requirements
+// Webpack Core and Webpack CLI 
+// npm install webpack webpack-cli --save-dev
