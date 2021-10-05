@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("dom file");const e=document.querySelector("body");(t=>{const o=document.createElement("h1");o.textContent="This is a test",e.appendChild(o)})(),console.log("index file")})();
+(()=>{"use strict";console.log("dom file");const e=document.querySelector("body");e.style.background="blue",(t=>{const o=document.createElement("h1");o.textContent="This is a test",e.appendChild(o)})(),(()=>{const t=document.createElement("h1");t.textContent="dmitriy.malayev@gmail.com",e.appendChild(t)})(),console.log("347-761-4403"),console.log("index file")})();
