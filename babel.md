@@ -40,3 +40,15 @@ var User = function User(name) {
 };
 ```
 
+# Project Sturcture 
+
+`src Folder`
+`app.js`
+The src folder contains the source JavaScript code inside of app.js
+Contains the new features. 
+
+`dist Folder`
+`assets`
+`index.html` => contains a reference to the bundle
+`bundle.js`
+contains the output of converted code
