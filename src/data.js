@@ -12,3 +12,4 @@ export const premiumFruits = (fruits) => {
 
 
 export default fruits
+// export {premiumFruits, fruits as default} alternative
